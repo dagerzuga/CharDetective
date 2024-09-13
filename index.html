@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chardetective</title>
+    <meta name="description"
+        content="CharDetective: Unmask deceptive characters in URLs, emails, and text. Protect yourself from phishing and visual spoofing with this free, open-source and easy-to-use online tool.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">chardetective</h1>
+            <p class="header__subtitle">Tool to detect non-standard characters in your text</p>
+        </header>
+        <main class="main">
+            <section class="input-section">
+                <h2 class="input-section__title">Input Text</h2>
+                <p class="input-section__instruction"><strong>Important:</strong> Copy and paste the text you want to
+                    analyze. Don't type it manually.</p>
+                <textarea class="input-section__textarea js-input-text"
+                    placeholder="Paste your text here to analyze..."></textarea>
+                <button class="input-section__button js-analyze-btn">Analyze</button>
+            </section>
+            <section class="result-section">
+                <h2 class="result-section__title">Analysis Results</h2>
+                <div class="result-section__content js-results"></div>
+            </section>
+            <section class="info-section">
+                <h2 class="info-section__title">Why is this important?</h2>
+                <div class="info-section__content">
+                    <p>Non-standard characters in text can be a sign of potential phishing attempts or other malicious
+                        activities. Here's why you should be careful:</p>
+                    <ul>
+                        <li>Phishing: Attackers may use similar-looking characters to create fake URLs or email
+                            addresses that appear legitimate at first glance.</li>
+                        <li>Obfuscation: Non-standard characters can be used to hide malicious content from security
+                            filters.</li>
+                        <li>Impersonation: These techniques can be used to create usernames or display names that look
+                            like those of trusted entities.</li>
+                    </ul>
+                    <p><strong>Safety Tips:</strong></p>
+                    <ul>
+                        <li>If you see non-standard characters in a link, do not click it.</li>
+                        <li>Be cautious of email addresses using unexpected characters.</li>
+                        <li>When in doubt, manually type known, trusted URLs instead of clicking links.</li>
+                        <li>Use official apps or verified websites for sensitive operations like banking.</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>This tool doesn't store any kind of information.</p>
+            <p>Open source tool for security analysis.</p>
+            <a href="https://github.com/dagerzuga/CharDetective">GitHub Repo.</a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
