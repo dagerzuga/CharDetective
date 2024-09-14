@@ -256,15 +256,15 @@ body {
 
 @media (max-width: 600px) {
   .header__title {
-      font-size: 2rem;
+    font-size: 2rem;
   }
 
   .header__subtitle {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 
   .input-section,
   .result-section {
-      padding: var(--spacing-unit);
+    padding: var(--spacing-unit);
   }
 }
