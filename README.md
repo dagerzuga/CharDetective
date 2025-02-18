@@ -6,7 +6,7 @@ CharDetective is an open-source web tool designed to help users identify potenti
 
 ***
 
-## Live: https://chardetective.netlify.app/
+## Live: https://chardetective.xyz
 
 ***
 
